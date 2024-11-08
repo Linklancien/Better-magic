@@ -18,6 +18,8 @@ const FOV_CHANGE = 1.5
 
 @onready var head = $Head
 @onready var camera = $Head/Camera3D
+@onready var left_arm = $LeftArm
+@onready var right_arm = $RightArm
 
 func _ready() -> void:
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
@@ -27,6 +29,7 @@ func _unhandled_input(event: InputEvent) -> void:
 		head.rotate_y(-event.relative.x * SENSIVITY)
 		camera.rotate_x(-event.relative.y * SENSIVITY)
 		camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-40), deg_to_rad(60))
+		left_arm.rotation.y = clamp(left_arm.rotation.x, deg_to_rad(-15) + head.rotation.y, deg_to_rad(15) + head.rotation.y)
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -52,11 +55,11 @@ func _physics_process(delta: float) -> void:
 			velocity.x = direction.x * speed
 			velocity.z = direction.z * speed
 		else:
-			velocity.x = lerp(velocity.x, direction.x * speed, delta * 6.0)
-			velocity.y = lerp(velocity.y, direction.y * speed, delta * 6.0)
+			velocity.x = lerp(velocity.x, direction.x * speed, delta * 7.0)
+			velocity.z = lerp(velocity.z, direction.z * speed, delta * 7.0)
 	else:
 		velocity.x = lerp(velocity.x, direction.x * speed, delta * 3.0)
-		velocity.y = lerp(velocity.y, direction.y * speed, delta * 3.0)
+		velocity.z = lerp(velocity.z, direction.z * speed, delta * 3.0)
 	
 	# Head bob
 	t_bob += delta * velocity.length() * float(is_on_floor())
@@ -71,6 +74,6 @@ func _physics_process(delta: float) -> void:
 
 func _headbob(time) -> Vector3:
 	var pos = Vector3.ZERO
-	pos.y = sin(t_bob * BOB_FREQ) * BOB_AMPL
-	pos.x = cos(t_bob * BOB_FREQ/2) * BOB_AMPL
+	pos.y = sin(time * BOB_FREQ) * BOB_AMPL
+	pos.x = cos(time * BOB_FREQ/2) * BOB_AMPL
 	return pos

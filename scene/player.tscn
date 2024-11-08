@@ -17,10 +17,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
 [node name="Camera3D" type="Camera3D" parent="Head"]
 current = true
 
-[node name="RayCast3D" type="RayCast3D" parent="Head"]
-target_position = Vector3(0, 0, -5)
-debug_shape_custom_color = Color(0.698039, 0, 0, 1)
-debug_shape_thickness = 1
+[node name="LeftArm" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 0, 0, 0)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="LeftArm"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.701081, 0, -0.684156)
+size = Vector3(0.5, 0.5, 3)
+
+[node name="RightArm" type="Node3D" parent="."]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_ffxy3")
