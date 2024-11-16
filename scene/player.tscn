@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://pwwcfgnqby6u"]
+[gd_scene load_steps=5 format=3 uid="uid://pwwcfgnqby6u"]
 
 [ext_resource type="Script" path="res://code/player.gd" id="1_do3kn"]
+[ext_resource type="PackedScene" uid="uid://betxyb1kgjuvg" path="res://scene/spear.tscn" id="2_b4me4"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_ffxy3"]
 
@@ -15,19 +16,22 @@ metadata/_edit_lock_ = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
 
 [node name="Camera3D" type="Camera3D" parent="Head"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
 current = true
 
-[node name="LeftArm" type="Node3D" parent="."]
-transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 0, 0, 0)
+[node name="Body" type="Node3D" parent="."]
 
-[node name="CSGBox3D" type="CSGBox3D" parent="LeftArm"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.701081, 0, -0.684156)
-size = Vector3(0.5, 0.5, 3)
+[node name="RightArm" type="Node3D" parent="Body"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0)
 
-[node name="RightArm" type="Node3D" parent="."]
+[node name="LeftArm" type="Node3D" parent="Body"]
+transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 0.5, 0, 0)
+
+[node name="spear" parent="Body/LeftArm" instance=ExtResource("2_b4me4")]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_ffxy3")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.999996, 0, -0.00267035, 0, 1, 0, 0.00267035, 0, 0.999996, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_4xjug")

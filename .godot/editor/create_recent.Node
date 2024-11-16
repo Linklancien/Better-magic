@@ -1,4 +1,7 @@
-CSGBox3D
+CSGCylinder3D
+Area3D
+CollisionShape3D
 Node3D
+CSGBox3D
 RigidBody3D
 Node

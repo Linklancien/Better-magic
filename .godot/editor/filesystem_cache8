@@ -1,8 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731022338
+::res://::1731770293
 icon.svg::CompressedTexture2D::382022904998860925::1730756569::1731011476::1::::<><>::
-::res://code/::1731022211
-player.gd::GDScript::-1::1731022211::0::1::::<>CharacterBody3D<>::
-::res://scene/::1731022211
-player.tscn::PackedScene::1099588583086160058::1731022211::0::1::::<><>::res://code/player.gd
-world.tscn::PackedScene::2706388849242966559::1731022189::0::1::::<><>::uid://pwwcfgnqby6u::::res://scene/player.tscn
+::res://code/::1731026486
+player.gd::GDScript::-1::1731026486::0::1::::<>CharacterBody3D<>::
+world.gd::GDScript::-1::1731024295::0::1::::<>CSGBox3D<>::
+::res://scene/::1731755431
+player.tscn::PackedScene::1099588583086160058::1731755431::0::1::::<><>::res://code/player.gd<>uid://betxyb1kgjuvg::::res://scene/spear.tscn
+spear.tscn::PackedScene::2707838678610727304::1731755295::0::1::::<><>::
+world.tscn::PackedScene::2706388849242966559::1731755295::0::1::::<><>::uid://pwwcfgnqby6u::::res://scene/player.tscn<>res://code/world.gd

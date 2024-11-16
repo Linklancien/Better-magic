@@ -18,8 +18,9 @@ const FOV_CHANGE = 1.5
 
 @onready var head = $Head
 @onready var camera = $Head/Camera3D
-@onready var left_arm = $LeftArm
-@onready var right_arm = $RightArm
+@onready var body = $Body
+@onready var left_arm = $Body/LeftArm
+@onready var right_arm = $Body/RightArm
 
 func _ready() -> void:
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
@@ -27,9 +28,9 @@ func _ready() -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
 		head.rotate_y(-event.relative.x * SENSIVITY)
-		camera.rotate_x(-event.relative.y * SENSIVITY)
+		camera.rotate_x(event.relative.y * SENSIVITY)
 		camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-40), deg_to_rad(60))
-		left_arm.rotation.y = clamp(left_arm.rotation.x, deg_to_rad(-15) + head.rotation.y, deg_to_rad(15) + head.rotation.y)
+		body.rotation.y = clamp(body.rotation.y, deg_to_rad(-15) + head.rotation.y, deg_to_rad(15) + head.rotation.y)
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.

@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://betxyb1kgjuvg"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_ed26s"]
+height = 0.5
+radius = 0.25
+
+[node name="CSGBox3D" type="CSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.75)
+size = Vector3(0.25, 0.25, 2)
+
+[node name="CollisionShape3D" type="Area3D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CollisionShape3D"]
+transform = Transform3D(1, 0, 0, 0, -0.0299629, -0.999551, 0, 0.999551, -0.0299629, 0, 0, 1.25)
+shape = SubResource("CylinderShape3D_ed26s")
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 1.25)
+radius = 0.25
+height = 0.5
