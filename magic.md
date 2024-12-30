@@ -8,6 +8,11 @@
 
 Aglomera de molécules qui stockent une quantité limitée de mana
 
+
+## __Potentiel de mana:__
+
+Quantié, qui admet un maximum et un minimum, de mana présent dans une entité
+
 ## __Être vivant (e.v.):__
 
 Entité qui échange du mana avec son environement et qui en as besoin pour maintenir ses fonctions vitales
@@ -31,7 +36,7 @@ Fonction vitales en fonction de la proportion de mana
   - perte de conscience
 
 - 1%: coma  
-- 0%: mort clinique, l'e.v. n'absorbe plus de mana par lui même, cependant il peut être réanimé par un autre e.v. (voir réanimation)
+- 0%: mort clinique, l'e.v. n'absorbe plus de mana par lui même, cependant il peut être réanimé par un autre e.v. (voir [réanimation](https://github.com/Linklancien/Better-magic/edit/main/magic.md#r%C3%A9animation))
 
 ## __Système manaique:__
 
@@ -49,7 +54,7 @@ L'absorbtion du mana s'éffectue au travers de toutes les parties de l'entité q
 
 Le mana est stocké dans les puits de mana jusqu'à ce qu'il soit utilisé
 
-### Disctibution:
+### Distribution:
 
 L'ensemble des vaiseaux de mana permetent d'acheminer le mana a sa destination, il s'occupent de gérer le flux de mana au sein de l'e.v.
 
@@ -66,7 +71,6 @@ Le contrôle de cette capacité varie d'un individu a l'autre et n'est pas fix.
 
 Entités ameliorant le contrôle d'un e.v. sur sa magie en attirant le mana a lui
 
-## __Potentiel de mana:__
+## __Réanimation:__
 
-Quantié, qui admet un maximum et un minimum, de mana présent dans une entité
-
+Procédé par lequel un e.v. qui est a 0% de son potentiel de mana, et donc est en situation de mort clinique, va recevoir du mana d'une autre entité et va donc sortir de seuil des 0%
