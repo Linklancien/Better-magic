@@ -36,7 +36,7 @@ Fonction vitales en fonction de la proportion de mana
   - perte de conscience
 
 - 1%: coma  
-- 0%: mort clinique, l'e.v. n'absorbe plus de mana par lui même, cependant il peut être réanimé par un autre e.v. (voir [réanimation](https://github.com/Linklancien/Better-magic/edit/main/magic.md#r%C3%A9animation))
+- 0%: mort clinique, l'e.v. n'absorbe plus de mana par lui même, cependant il peut être réanimé par un autre e.v. (voir [réanimation](https://github.com/Linklancien/Better-magic/blob/main/magic.md#r%C3%A9animation))
 
 ## __Système manaique:__
 
