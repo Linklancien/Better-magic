@@ -60,7 +60,14 @@ L'ensemble des vaiseaux de mana permetent d'acheminer le mana a sa destination, 
 
 ### Consomation:
 
-Le coeur de mana consomme du mana et permet de contrôler l'activitée des vaisseaux de mana
+Le coeur de mana consomme du mana et permet de contrôler l'activitée des vaisseaux de mana (voir [coeur de mana]())
+
+## __Coeur de mana:__
+
+Organe essentiel au bon fonctionnement du système manaique.
+
+Le coeur de mana est constitué d'un matériaux oraganique unique qui lui permet de résisté a la puissance d'un feu de mana (voir (compensation des concentrations de mana]()) ceci lui permet d'en abriter un.
+A l'aide de modifications des formes des vaiseau de mana qui lui sont relié il permet a un e.v. contrôler le flux de mana en son sein.
 
 ## __Magie:__
 
@@ -74,3 +81,14 @@ Entités ameliorant le contrôle d'un e.v. sur sa magie en attirant le mana a lu
 ## __Réanimation:__
 
 Procédé par lequel un e.v. qui est a 0% de son potentiel de mana, et donc est en situation de mort clinique, va recevoir du mana d'une autre entité et va donc sortir de seuil des 0%
+
+Le second e.v. va forcer le passage du mana au sein du système manaique du premier et donc forcer son coeure de mana a redémarer.
+
+## __Compensation des concentrations de mana:__
+
+Principe qui explique l'équilibre des quantité de mana au sein d'un espace, si la concentration de mana en un point est différente de celle en un point voisin il s'ensuit une réaction proportionel au quotient des concentrations( (grande concentration)/(100 * petite concentration) )
+
+- 1% Pas de réaction apparente, le mana se déplace pour compenser la différence.
+- 20% (20 fois suppérieur) Le mana se déplace de manière brusque est forcé, apparition de lignes de mana accompagnée de force affectuant les entitées dans le sens du déplacement.
+- 50% (50 fois suppérieur) Apparition d'un feu de mana qui transphorme du mana en énergie thermique.
+- 100% et + (+ de 100 fois suppérieur) Apparition d'une explosion de mana relachant de l'énergie thermique.
