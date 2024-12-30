@@ -14,7 +14,7 @@ Entité qui échange du mana avec son environement et qui en as besoin pour main
 
 ## __Vie:__
 
-Action passive caractéristique de certaines entitées (e.v.) qui consite a absorber passivement le mana environant et à le consommer dans le temps (voir système manaique).
+Action passive caractéristique de certaines entitées (e.v.) qui consite a absorber passivement le mana environant et à le consommer dans le temps (voir [système manaique](https://github.com/Linklancien/Better-magic/blob/main/magic.md#syst%C3%A8me-manaique)).
 
 L'absorption se fait au travers des toutes les parties de l'e.v. et grâce au coeur de mana.
 
