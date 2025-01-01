@@ -15,15 +15,15 @@ Quantité, qui admet un maximum et un minimum de mana présent dans une entité
 
 ## __Être vivant (e.v):__
 
-Catégorie d'entité qui échange du mana avec son environement et qui en a besoin pour maintenir son système manaïque (voir [système manaÏque](https://github.com/Linklancien/Better-magic/blob/main/magic.md#syst%C3%A8me-mana%C3%8Fque)).
+Catégorie d'entité qui échange du mana avec son environement et qui en a besoin pour maintenir son système manaïque (voir [système manaïque](https://github.com/Linklancien/Better-magic/blob/main/magic.md#syst%C3%A8me-mana%C3%8Fque)).
 
 ## __Vie:__
 
-Action passive caractéristique des êtres vivants qui consite à absorber passivement le mana environant et à le consommer dans le temps (voir [système manaÏque](https://github.com/Linklancien/Better-magic/blob/main/magic.md#syst%C3%A8me-mana%C3%8Fque)).
+Action passive caractéristique des e.v qui consite à absorber passivement le mana environant et à le consommer dans le temps (voir [système manaïque](https://github.com/Linklancien/Better-magic/blob/main/magic.md#syst%C3%A8me-mana%C3%8Fque)).
 
 ## __Mort:__
   
-Action passive caractéristique des êtres vivants quand leur mana est inférieur à un seuil de 5%, les empêchant progressivement d'absorber du mana
+Action passive caractéristique des e.v quand leur mana est inférieur à un seuil de 5%, les empêchant progressivement d'absorber du mana
 
 ### Échelle des fonctions vitales en fonction de la proportion de mana:
 - 100%: surabondance de mana
@@ -50,12 +50,12 @@ Le mana est stocké dans un puit de mana jusqu'à son utilisation
 
 ### Consomation:
 
-Le coeur de mana consomme du mana et permet de contrôler l'activitée des vaisseaux de mana (voir [coeur de mana](https://github.com/Linklancien/Better-magic/blob/main/magic.md#coeur-de-mana))
+Le coeur de mana consomme du mana et permet de contrôler l'activité des vaisseaux de mana (voir [coeur de mana](https://github.com/Linklancien/Better-magic/blob/main/magic.md#coeur-de-mana))
 L'ensemble des vaisseaux de mana permettent d'acheminer le mana à sa destination grâce à une distribution de celui-ci au sein des différentes catégories de vaisseaux 
 
 ### Sorts:
 
-Capacité d'un être vivant à consciamment expulser son mana hors de son système manaïque
+Capacité d'un e.v à consciamment expulser son mana hors de son système manaïque
 - Le contrôle de cette capacité varie d'un individu à l'autre et n'est pas fixe
 
 ## __Coeur de mana:__
@@ -66,20 +66,20 @@ Enveloppe contenant un feu de mana essentiel au fonctionnement du système mana�
 
 ## __Puit de mana:__
 
-Correspond à une source présente en un être vivant permettant de stocker du mana
+Correspond à une source présente en un e.v permettant de stocker du mana
 
 ## __Vaisseaux de mana:__
 
-Canaux permettant le transports du mana dans le corps d'un être vivant et qui gèrent le flux du mana entre les canaux de différentes tailles (noms potentiels à définir)
+Canaux permettant le transport du mana dans le corps d'un e.v et qui gèrent le flux du mana entre les canaux de différentes tailles (noms potentiels à définir)
 
 ## __Catalyseur:__
 
-Sous catégorie d'entité améliorant le contrôle d'un être vivant sur sa magie en ayant le rôle d'un aimant à mana 
+Sous catégorie d'entité améliorant le contrôle d'un e.v sur sa magie en ayant le rôle d'un aimant à mana 
 
 ## __Réanimation:__
 
-Procédé par lequel un être vivant en situation de mort clinique va recevoir du mana d'une autre être vivant et sortir de seuil des 0%
-- Le second être vivant va forcer le passage du mana au sein du système manaïque du premier en forçant le coeur de mana à redémarer (procédé à définir)
+Procédé par lequel un e.v en situation de mort clinique va recevoir du mana d'une autre e.v et sortir de seuil des 0%
+- Le second e.v va forcer le passage du mana au sein du système manaïque du premier en forçant le coeur de mana à redémarer (procédé à définir)
 
 ## __Concentrations de mana:__
 
