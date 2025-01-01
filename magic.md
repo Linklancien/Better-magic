@@ -2,93 +2,97 @@
 
 ## __Mana:__
 
-Énergie presente dans toutes les entitées en quantité variable
+Énergie présente dans toutes les entités en quantité variable
 
 ## __Entité:__
 
-Aglomera de molécules qui stockent une quantité limitée de mana
+Aglomeration de molécules qui stockent une quantité limitée de mana
 
 
 ## __Potentiel de mana:__
 
-Quantié, qui admet un maximum et un minimum, de mana présent dans une entité
+Quantité, qui admet un maximum et un minimum de mana présent dans une entité
 
-## __Être vivant (e.v.):__
+## __Être vivant (e.v):__
 
-Entité qui échange du mana avec son environement et qui en as besoin pour maintenir ses fonctions vitales
+Catégorie d'entité qui échange du mana avec son environement et qui en a besoin pour maintenir son système manaïque (voir [système manaÏque](https://github.com/Linklancien/Better-magic/blob/main/magic.md#syst%C3%A8me-mana%C3%8Fque)).
 
 ## __Vie:__
 
-Action passive caractéristique de certaines entitées (e.v.) qui consite a absorber passivement le mana environant et à le consommer dans le temps (voir [système manaique](https://github.com/Linklancien/Better-magic/blob/main/magic.md#syst%C3%A8me-manaique)).
+Action passive caractéristique des êtres vivants qui consite à absorber passivement le mana environant et à le consommer dans le temps (voir [système manaÏque](https://github.com/Linklancien/Better-magic/blob/main/magic.md#syst%C3%A8me-mana%C3%8Fque)).
 
-L'absorption se fait au travers des toutes les parties de l'e.v. et grâce au coeur de mana.
+## __Mort:__
+  
+Action passive caractéristique des êtres vivants quand leur mana est inférieur à un seuil de 5%, les empêchant progressivement d'absorber du mana
 
-Le mana ainsi absorber est stocké jusqu'a son utilisation
-
-Fonction vitales en fonction de la proportion de mana
-- 100%: surabondonce de mana
-- 50%: quantité normal de mana
+### Échelle des fonctions vitales en fonction de la proportion de mana:
+- 100%: surabondance de mana
+- 50%: quantité normale de mana
 - 20%: quantité faible de mana
 - 10%: quantité critique de mana
-- 5%: apparition des premiers symptômes 
-
+- 5%: apparition des premiers symptômes: 
   - fatigue intense
   - perte de conscience
-
 - 1%: coma  
-- 0%: mort clinique, l'e.v. n'absorbe plus de mana par lui même, cependant il peut être réanimé par un autre e.v. (voir [réanimation](https://github.com/Linklancien/Better-magic/blob/main/magic.md#r%C3%A9animation))
+- 0%: mort clinique, l'e.v. n'absorbe plus aucun mana par lui-même, cependant sa mort n'est pas définitive : il peut être réanimé par un autre e.v. (voir [réanimation](https://github.com/Linklancien/Better-magic/blob/main/magic.md#r%C3%A9animation))
 
-## __Système manaique:__
+## __Système manaïque:__
 
-Ensembles des organes permetant l'absorbtion, le stockage, la distribution et la consomation du mana:
+Système d'utilisation du mana permettant l'absorption, le stockage, la consomation du mana et la capacité de faire des sorts
 
-- puits de mana
-- vaiseaux de mana
-- coeur de mana
-  
 ### Absorbtion:
 
-L'absorbtion du mana s'éffectue au travers de toutes les parties de l'entité qui font interface avec son environement
+L'absorbtion du mana s'éffectue avec les parties de l'entité qui font interface avec son environement
 
 ### Stockage:
 
-Le mana est stocké dans les puits de mana jusqu'à ce qu'il soit utilisé
-
-### Distribution:
-
-L'ensemble des vaiseaux de mana permetent d'acheminer le mana a sa destination, il s'occupent de gérer le flux de mana au sein de l'e.v.
+Le mana est stocké dans un puit de mana jusqu'à son utilisation
 
 ### Consomation:
 
-Le coeur de mana consomme du mana et permet de contrôler l'activitée des vaisseaux de mana (voir [coeur de mana]())
+Le coeur de mana consomme du mana et permet de contrôler l'activitée des vaisseaux de mana (voir [coeur de mana](https://github.com/Linklancien/Better-magic/blob/main/magic.md#coeur-de-mana))
+L'ensemble des vaisseaux de mana permettent d'acheminer le mana à sa destination grâce à une distribution de celui-ci au sein des différentes catégories de vaisseaux 
+
+### Sorts:
+
+Capacité d'un être vivant à consciamment expulser son mana hors de son système manaïque
+- Le contrôle de cette capacité varie d'un individu à l'autre et n'est pas fixe
 
 ## __Coeur de mana:__
 
-Organe essentiel au bon fonctionnement du système manaique.
+Enveloppe contenant un feu de mana essentiel au fonctionnement du système manaïque.
+- Le coeur de mana est constitué d'un matériel oraganique (à définir) lui permetant de résister à la puissance d'un feu de mana.
+(voir [compensation des concentrations de mana](https://github.com/Linklancien/Better-magic/blob/main/magic.md#compensation-des-concentrations-de-mana))
 
-Le coeur de mana est constitué d'un matériaux oraganique unique qui lui permet de résisté a la puissance d'un feu de mana (voir (compensation des concentrations de mana]()) ceci lui permet d'en abriter un.
-A l'aide de modifications des formes des vaiseau de mana qui lui sont relié il permet a un e.v. contrôler le flux de mana en son sein.
+## __Puit de mana:__
 
-## __Magie:__
+Correspond à une source présente en un être vivant permettant de stocker du mana
 
-Capacité d'un e.v. a consciamment expulsé son mana vers hors de son système manaique.
-Le contrôle de cette capacité varie d'un individu a l'autre et n'est pas fix.
+## __Vaisseaux de mana:__
+
+Canaux permettant le transports du mana dans le corps d'un être vivant et qui gèrent le flux du mana entre les canaux de différentes tailles (noms potentiels à définir)
 
 ## __Catalyseur:__
 
-Entités ameliorant le contrôle d'un e.v. sur sa magie en attirant le mana a lui
+Sous catégorie d'entité améliorant le contrôle d'un être vivant sur sa magie en ayant le rôle d'un aimant à mana 
 
 ## __Réanimation:__
 
-Procédé par lequel un e.v. qui est a 0% de son potentiel de mana, et donc est en situation de mort clinique, va recevoir du mana d'une autre entité et va donc sortir de seuil des 0%
+Procédé par lequel un être vivant en situation de mort clinique va recevoir du mana d'une autre être vivant et sortir de seuil des 0%
+- Le second être vivant va forcer le passage du mana au sein du système manaïque du premier en forçant le coeur de mana à redémarer (procédé à définir)
 
-Le second e.v. va forcer le passage du mana au sein du système manaique du premier et donc forcer son coeure de mana a redémarer.
+## __Concentrations de mana:__
 
-## __Compensation des concentrations de mana:__
+quantité de mana divisée par le volume occupé par celle-ci 
+(  (quantité de mana)/(volume occupé)  )
 
-Principe qui explique l'équilibre des quantité de mana au sein d'un espace, si la concentration de mana en un point est différente de celle en un point voisin il s'ensuit une réaction proportionel au quotient des concentrations( (grande concentration)/(100 * petite concentration) )
+### Compensation des concentrations de mana:
+
+Principe qui explique l'équilibre des quantités de mana au sein d'un espace
+Si la concentration de mana en un point est différente de celle en un point voisin, il s'en suit une réaction proportionelle au quotient des concentrations
+(  (grande concentration)/(100 * petite concentration)  )
 
 - 1% Pas de réaction apparente, le mana se déplace pour compenser la différence.
-- 20% (20 fois suppérieur) Le mana se déplace de manière brusque est forcé, apparition de lignes de mana accompagnée de force affectuant les entitées dans le sens du déplacement.
-- 50% (50 fois suppérieur) Apparition d'un feu de mana qui transphorme du mana en énergie thermique.
-- 100% et + (+ de 100 fois suppérieur) Apparition d'une explosion de mana relachant de l'énergie thermique.
+- 20% (20 fois suppérieur) Le mana se déplace de manière brusque et forcée, apparition de lignes de mana accompagnées de force affectant les entités dans le sens du déplacement.
+- 50% (50 fois suppérieur) Apparition d'un feu de mana qui transforme du mana en énergie thermique.
+- 100% et plus (+ de 100 fois suppérieur) Apparition d'une explosion de mana relachant de l'énergie thermique.
