@@ -6,7 +6,7 @@
 
 ## __Entité:__
 
-Aglomeration de molécules qui stockent une quantité limitée de mana
+Aglomération de molécules qui stocke une quantité limitée de mana
 
 
 ## __Potentiel de mana:__
